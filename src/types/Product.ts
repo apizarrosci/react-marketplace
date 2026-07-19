@@ -1,14 +1,15 @@
-import type { ProductSpecification } from "./ProductSpecification";
+import type { ProductSpecifications } from "./ProductSpecifications";
+import type { Category } from "./Category";
 
 export interface Product{
     id: number;
     name: string;
     price: number;
     description: string;
-    category: string;
-    image: string;
+    category: Category;
+    images: string[];
     stock: number;
     rating: number;
     reviews: number;
-    specification: ProductSpecification;
+    specifications: ProductSpecifications;
 }

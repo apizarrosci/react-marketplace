@@ -1,4 +1,4 @@
-export interface ProductSpecification{
+export interface ProductSpecifications{
     color: string;
     weight: string;
     material: string;
